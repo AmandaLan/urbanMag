@@ -1,0 +1,799 @@
+@media screen and (min-width: 1080px) {
+  .article-detail {
+    margin: 5rem;
+    padding: 5rem;
+  }
+  .article-detail .article-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .article-detail .article-wrapper img {
+    width: 50rem;
+  }
+  .article-detail .article-wrapper .article-title {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50rem;
+    color: lightgray;
+    background-color: #202020;
+    box-shadow: 10px 5px 5px black;
+  }
+  .article-detail .article-wrapper .article-title h1 {
+    font-size: 6rem;
+    border-bottom: lightgray solid 0.2rem;
+  }
+  .article-detail .article-wrapper .article-title h3 {
+    font-size: 3rem;
+  }
+  .article-detail h1 {
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+  }
+  .article-detail .subtitleArticleDetails {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 5rem 2rem 5rem;
+    color: lightgray;
+  }
+  .article-detail .subtitleArticleDetails p {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .article-detail .article-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .article-detail .article-wrapper img {
+    width: 50rem;
+  }
+  .article-detail .article-wrapper .article-title {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40rem;
+    color: lightgray;
+    background-color: #202020;
+    box-shadow: 10px 5px 5px black;
+  }
+  .article-detail .article-wrapper .article-title h1 {
+    font-size: 6rem;
+    border-bottom: lightgray solid 0.2rem;
+  }
+  .article-detail .article-wrapper .article-title h3 {
+    font-size: 3rem;
+  }
+  .article-detail h1 {
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+  }
+  .article-detail .subtitleArticleDetails {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 5rem 2rem 5rem;
+    color: lightgray;
+  }
+  .article-detail .subtitleArticleDetails p {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+.map_contact .map {
+  height: 100vh;
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+.map_contact iframe {
+  position: relative;
+}
+.map_contact form {
+  background-color: #1d1e22e3;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  box-shadow: 10px 5px 5px black;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.map_contact form h1 {
+  border-bottom: lightgray solid 0.1rem;
+  padding: 2rem;
+}
+.map_contact form .name {
+  display: flex;
+}
+.map_contact form .name div {
+  margin: 0.5rem;
+}
+.map_contact form label {
+  display: flex;
+  justify-content: center;
+}
+.map_contact form input,
+.map_contact form textarea {
+  width: 100%;
+  background: transparent;
+  border: rgba(255, 255, 255, 0.657) solid 0.1rem;
+  border-radius: 0.3rem;
+}
+.map_contact form a {
+  text-decoration: none;
+}
+.map_contact form .btn {
+  display: flex;
+  margin: 1rem;
+}
+.map_contact form .btn .contact_submit {
+  margin-top: 3rem;
+  padding: 1rem 2rem 1rem 2rem;
+  background: transparent;
+  color: white;
+  border: rgba(255, 255, 255, 0.657) solid 0.1rem;
+}
+.map_contact form .btn .contact_submit:hover {
+  cursor: pointer;
+}
+.map_contact form .btn .backHome {
+  margin-top: 3rem;
+  padding: 1rem 2rem 1rem 2rem;
+  background: transparent;
+  color: white;
+  border: rgba(255, 255, 255, 0.657) solid 0.1rem;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background: black;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  .login_form {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+  }
+  .login_form h1 {
+    color: white;
+    font-size: 4rem;
+  }
+  .login_form .login_input a {
+    color: white;
+    font-size: 2rem;
+  }
+  .login_form .login_input form .form-group input {
+    width: 50%;
+    background: black;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .login_form .login_input form .login_submit input {
+    background-color: transparent;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: white;
+    margin: 2rem 0 2rem 0;
+    padding: 1rem;
+    font-size: 2.5rem;
+  }
+  .login_form .login_input form .login_submit input:hover {
+    cursor: pointer;
+  }
+  .login_form .login_input form .login_submit a {
+    background-color: transparent;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 2rem 0 2rem 0;
+    padding: 1rem;
+    font-size: 2.5rem;
+  }
+  .login_form .login_input .create {
+    margin: 4rem;
+  }
+
+  input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #ffffff;
+    font-size: 2rem;
+  }
+}
+.login_form {
+  position: absolute;
+  z-index: 100;
+  padding: 4rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: white;
+}
+.login_form h1 {
+  color: white;
+  font-size: 4rem;
+}
+.login_form .login_input a {
+  color: white;
+  font-size: 2rem;
+}
+.login_form .login_input form .form-group input {
+  width: 50%;
+  background: black;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.login_form .login_input form .login_submit input {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  color: white;
+  margin: 2rem 0 2rem 0;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+.login_form .login_input form .login_submit input:hover {
+  cursor: pointer;
+}
+.login_form .login_input form .login_submit a {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+  margin: 2rem 0 2rem 0;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+.login_form .login_input .create {
+  margin: 4rem;
+}
+
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ffffff;
+  font-size: 2rem;
+}
+
+.signUp {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.signUp_form {
+  background-color: rgba(32, 32, 32, 0.609);
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6rem;
+  text-align: center;
+  width: 50%;
+  border-radius: 1rem;
+  color: white;
+}
+.signUp_form h1 {
+  color: white;
+  font-size: 4.5rem;
+}
+.signUp_form form .signUp_input .form-group input {
+  width: 100%;
+  background-color: transparent;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: white;
+}
+.signUp_form form .signUp_input .form-group label {
+  font-size: 2.5rem;
+}
+.signUp_form form .signUp_submit input {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  color: white;
+  margin: 4rem 0 4rem 0;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.signUp_form form .signUp_submit a {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  color: white;
+  margin: 4rem 0 4rem 0;
+  padding: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+input:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ffffff;
+  font-size: 2rem;
+}
+
+/*sass --watch assets/sass/main.scss assets/css/main.css*/
+@keyframes showTopText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes showMiddleText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  max-width: 100vw;
+  background: #18191d;
+}
+
+.headerBg {
+  position: relative;
+}
+.headerBg img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+  }
+  section a {
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+  }
+
+  .nav-active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding-bottom: 3rem;
+  }
+  .nav-active a {
+    color: white;
+  }
+
+  .white {
+    color: white;
+  }
+
+  #white {
+    color: white;
+    color: #1a2856;
+    color: #242457;
+  }
+
+  .headerTitle {
+    color: #717c8a;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .headerTitle > div {
+    padding-right: 2rem;
+    margin-right: 1rem;
+    opacity: 0;
+  }
+  .headerTitle .text-top {
+    animation-name: showTopText;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .headerTitle .text-top span {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #1d1e22;
+    font-family: "Abril Fatface", cursive;
+  }
+  .headerTitle .text-middle {
+    animation-name: showMiddleText;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .headerTitle .text-middle span {
+    font-size: 2rem;
+  }
+  .headerTitle .text-bottom {
+    animation-name: showBottomText;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .headerTitle .text-bottom span {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  section {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 3rem 8rem 0rem 8rem;
+    font-size: 2rem;
+  }
+  section a {
+    text-decoration: none;
+    color: black;
+    padding-right: 2rem;
+  }
+
+  .nav-active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding-bottom: 3rem;
+  }
+  .nav-active a {
+    color: white;
+  }
+
+  .white {
+    color: white;
+  }
+
+  #white {
+    color: white;
+    color: #1a2856;
+    color: #242457;
+  }
+
+  .headerTitle {
+    color: #717c8a;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .headerTitle > div {
+    padding-right: 10rem;
+    margin-right: 5rem;
+    opacity: 0;
+  }
+  .headerTitle .text-top {
+    animation-name: showTopText;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .headerTitle .text-top span {
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: #1d1e22;
+    font-family: "Abril Fatface", cursive;
+  }
+  .headerTitle .text-middle {
+    animation-name: showMiddleText;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .headerTitle .text-middle span {
+    font-size: 5rem;
+  }
+  .headerTitle .text-bottom {
+    animation-name: showBottomText;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .headerTitle .text-bottom span {
+    font-size: 5rem;
+  }
+}
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: #1d1e22;
+  border-radius: 2rem;
+}
+@media screen and (min-width: 900px) {
+  .container .titleArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 10rem;
+    padding-top: 5rem;
+  }
+  .container .subtitleArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 4rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+}
+.container .titleArticle {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 10rem;
+  padding-top: 5rem;
+}
+.container .subtitleArticle {
+  text-align: center;
+  color: white;
+  margin-bottom: 4rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.container .articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 6rem;
+}
+.container .articles .article {
+  position: relative;
+  flex-basis: 23%;
+  margin: 3rem;
+  margin-bottom: 10rem;
+}
+.container .articles .article img {
+  width: 32rem;
+  transition: all 0.5s;
+}
+.container .articles .article img:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+.container .articles .article .articles-titles-wrapper {
+  position: absolute;
+  top: 0;
+  right: -7rem;
+  left: 17rem;
+  padding: 1rem;
+  font-size: 4rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 10px 5px 5px black;
+  text-shadow: 3px 1px #c24d16;
+}
+.container .articles .article .articles-titles-wrapper .article-titles {
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+}
+
+@media screen and (min-width: 900px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding: 2rem;
+  }
+  .about p {
+    color: white;
+  }
+  .about .logo-about {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 10rem;
+  }
+  .about .logo-about .icon-paper-plane {
+    font-size: 5rem;
+    color: white;
+  }
+  .about .about-top {
+    padding: 4rem;
+  }
+  .about .about-bottom {
+    padding: 4rem;
+  }
+}
+.about {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  padding: 4rem;
+  text-align: center;
+}
+.about p {
+  color: white;
+}
+.about .logo-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.about .logo-about .icon-paper-plane {
+  font-size: 5rem;
+  color: white;
+}
+
+.middleBg {
+  background-image: url("../img/tunnel.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+.middleBg h1 {
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+footer .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: white;
+}
+footer .icon a {
+  text-decoration: none;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+footer .links .list1 ul {
+  list-style: none;
+}
+footer .links .list1 ul li {
+  font-size: 1.7rem;
+}
+footer .links .list1 ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .links .list2 ul {
+  list-style: none;
+}
+footer .links .list2 ul li {
+  font-size: 1.7rem;
+}
+footer .links .list2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .links .list3 ul {
+  list-style: none;
+}
+footer .links .list3 ul li {
+  font-size: 1.7rem;
+}
+footer .links .list3 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

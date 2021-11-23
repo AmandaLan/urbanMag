@@ -1,0 +1,150 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: black;
+    overflow: hidden;
+}
+@media screen and (min-width: 900px) {
+    .login_form {
+        position: absolute;
+        z-index: 100;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 4rem;
+        text-align: center;
+        // background-color: #18191d75;
+
+        border-radius: 0.5rem;
+        color: white;
+        h1 {
+            color: white;
+            font-size: 4rem;
+        }
+        .login_input {
+            a {
+                color: white;
+                font-size: 2rem;
+            }
+            form {
+                .form-group {
+                    input {
+                        width: 50%;
+                        background: black;
+                        border: 0.1rem solid white;
+                        border-radius: 0.5rem;
+                        color: white;
+                        padding: 1rem;
+                        font-size: 2rem;
+                        margin-top: 2rem;
+                    }
+                }
+                .login_submit {
+                    input {
+                        background-color: transparent;
+                        border: 0.1rem solid white;
+                        border-radius: 0.5rem;
+                        color: white;
+                        margin: 2rem 0 2rem 0;
+                        padding: 1rem;
+                        font-size: 2.5rem;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                    a {
+                        background-color: transparent;
+                        border: 0.1rem solid white;
+                        border-radius: 0.5rem;
+                        color: white;
+                        text-decoration: none;
+                        margin: 2rem 0 2rem 0;
+                        padding: 1rem;
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .create {
+                margin: 4rem;
+            }
+        }
+    }
+    input:-webkit-autofill {
+        transition: background-color 5000s ease-in-out 0s;
+        -webkit-text-fill-color: #ffffff;
+        font-size: 2rem;
+    }
+}
+
+.login_form {
+    position: absolute;
+    z-index: 100;
+
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    padding: 4rem;
+    text-align: center;
+    // background-color: #18191d75;
+
+    border-radius: 0.5rem;
+    color: white;
+    h1 {
+        color: white;
+        font-size: 4rem;
+    }
+    .login_input {
+        a {
+            color: white;
+            font-size: 2rem;
+        }
+        form {
+            .form-group {
+                input {
+                    width: 50%;
+                    background: black;
+                    border: 0.1rem solid white;
+                    border-radius: 0.5rem;
+                    color: white;
+                    padding: 1rem;
+                    font-size: 2rem;
+                    margin-top: 2rem;
+                }
+            }
+            .login_submit {
+                input {
+                    background-color: transparent;
+                    border: 0.1rem solid white;
+                    border-radius: 0.5rem;
+                    color: white;
+                    margin: 2rem 0 2rem 0;
+                    padding: 1rem;
+                    font-size: 2.5rem;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                a {
+                    background-color: transparent;
+                    border: 0.1rem solid white;
+                    border-radius: 0.5rem;
+                    color: white;
+                    text-decoration: none;
+                    margin: 2rem 0 2rem 0;
+                    padding: 1rem;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        .create {
+            margin: 4rem;
+        }
+    }
+}
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #ffffff;
+    font-size: 2rem;
+}

@@ -1,0 +1,120 @@
+@media screen and (min-width: 1080px){
+    .article-detail {
+        margin: 5rem;
+        padding: 5rem;
+    
+        .article-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            img {
+                width: 50rem;
+            }
+            .article-title {
+                padding: 3rem;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 50rem;
+    
+                color: rgb(211, 211, 211);
+                background-color: #202020;
+                box-shadow: 10px 5px 5px black;
+                h1 {
+                    font-size: 6rem;
+                    border-bottom: rgb(211, 211, 211) solid 0.2rem;
+                }
+                h3 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    
+        h1 {
+            display: flex;
+            justify-content: center;
+    
+            color: rgb(211, 211, 211);
+        }
+    
+        .subtitleArticleDetails {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+    
+            margin-top: 2rem;
+            padding: 0 5rem 2rem 5rem;
+            color: rgb(211, 211, 211);
+    
+            p {
+                padding: 2rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1080px) {
+    .article-detail {
+        // margin: 5rem;
+        // padding: 5rem;
+    
+        .article-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            img {
+                width: 50rem;
+            }
+            .article-title {
+                padding: 3rem;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 40rem;
+    
+                color: rgb(211, 211, 211);
+                background-color: #202020;
+                box-shadow: 10px 5px 5px black;
+                h1 {
+                    font-size: 6rem;
+                    border-bottom: rgb(211, 211, 211) solid 0.2rem;
+                }
+                h3 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    
+        h1 {
+            display: flex;
+            justify-content: center;
+    
+            color: rgb(211, 211, 211);
+        }
+    
+        .subtitleArticleDetails {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+    
+            margin-top: 2rem;
+            padding: 0 5rem 2rem 5rem;
+            color: rgb(211, 211, 211);
+    
+            p {
+                padding: 2rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
